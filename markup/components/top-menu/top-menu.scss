@@ -1,0 +1,27 @@
+.top-menu {
+  &__list {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__item {
+    margin-right: 27px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: rgba(#fff, .7);
+
+    font-size: 14px;
+    font-weight: 600;
+
+    @include transition;
+    &:last-child {
+      margin-right: 34px;
+    }
+    &:hover {
+      color: #fff;
+    }
+  }
+}

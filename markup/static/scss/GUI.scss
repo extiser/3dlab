@@ -1,0 +1,63 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+
+.main {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.button {
+  padding: 11px 33px 10px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border-radius: 20px;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, .15);
+
+  font-size: 14px;
+  font-weight: 600;
+
+  @include transition;
+  &:hover {
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, .15);
+  }
+  &--white {
+    color: $darkBlue;
+    background: #fff;
+  }
+  &--blue {
+    color: #fff;
+    background: #008bf5;
+  }
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #5c5c5c;
+
+  font-family: $GothamPro-Bold;
+  font-size: 48px;
+  line-height: 100%;
+  &--gradiented {
+    span {
+      color: transparent;
+      background: linear-gradient(to right, $darkBlue 30%, $lightBlue 75%);
+      -webkit-background-clip: text;
+              background-clip: text;
+    }
+  }
+  &--white {
+    color: #fff;
+  }
+}

@@ -1,0 +1,42 @@
+.top {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  left: 0;
+
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 40px 50px;
+  &__wrapper {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__right {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.top-logos {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+  &__item {
+    text-indent: -9999px;
+    &--mai {
+      margin-right: 30px;
+
+      @include bg($mai-white);
+    }
+    &--printeo {
+      @include bg($logo-white);
+    }
+  }
+}

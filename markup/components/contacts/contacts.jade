@@ -1,0 +1,37 @@
+mixin contacts
+  .contacts
+    .contacts__wrapper
+      .contacts__title.title.title--gradiented 
+        span Контакты
+
+      .contacts-form
+        form(action="" method="").form
+          .form__row
+            .form__column
+              input(type="text" value="" placeholder="Имя и фамилия").form__element
+            .form__column
+              input(type="text" value="" placeholder="Тема сообщения").form__element
+
+          .form__row
+            .form__column
+              input(type="phone" value="" placeholder="Контактный телефон").form__element
+            .form__column
+              input(type="email" value="" placeholder="Эл. почта").form__element
+
+          .form__row
+            textarea(placeholder="Сообщение").form__element.form__element--textarea
+
+          .form__row
+            .form__column
+              input(type="sumbit" value="Отправить").form__submit
+            .form__column
+              .form-file
+                input(type="file").form-file__trigger
+                .form-file__placehold Прикрепить файл
+
+      .contact-list
+        .contact-list__title ЛАБОРАТОРИЯ 3D-МОДЕЛИРВОАНИЯ 
+        .contact-list__item Эл. почта: lab.3d@mai.ru
+        .contact-list__item Телефон: +7 (495) 649-48-80
+        .contact-list__item.contact-list__item--address Московский Авиационный Институт 125993, Российская Федерация, г. Москва, Волоколамское шоссе, дом 4, А-80
+        a(href="#" title="").contact-list__map Открыть карту

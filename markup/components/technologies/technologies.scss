@@ -1,0 +1,113 @@
+.technologies {
+  padding-bottom: 92px;
+
+  background: url(%=static=%general/fractal.png) no-repeat center;
+  background-size: cover;
+  &__wrapper {
+    padding-top: 60px;
+    padding-right: 120px;
+    padding-left: 120px;
+
+    @extend .wrapper;
+  }
+}
+
+.technologies-modules {
+  display: flex;
+
+  margin-top: 166px;
+
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.technologies-modules-item {
+  width: 530px;
+  margin-bottom: 138px;
+  @media screen and (max-width: 1360px) {
+    width: 500px;
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #0182f2;
+
+    font-family: $GothamPro-Bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    @include transition;
+    &:hover {
+      color: $darkBlue;
+    }
+  }
+  &__text {
+    margin-top: 15px;
+
+    color: #5c5c5c;
+
+    font-size: 18px;
+    line-height: 24px;
+  }
+  // стиллизация блока в технологиях
+  &--block {
+    position: relative;
+
+    width: 490px;
+    height: 233px;
+
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(#000, .1);;
+  }
+  &__title {
+    max-width: 174px;
+    margin: auto;
+    padding-top: 49px;
+
+    text-align: center;
+
+    font-size: 36px;
+  }
+  &__more {
+    position: absolute;
+    right: 0;
+    bottom: 35px;
+    left: 0;
+
+    margin: auto;
+
+    text-align: center;
+    a {
+      position: relative;
+
+      text-decoration: none;
+      text-transform: uppercase;
+
+      color: #000;
+
+      font-family: $GothamPro-Bold;
+      font-size: 14px;
+      line-height: 18px;
+
+      @include transition;
+      &:after {
+        position: absolute;
+        top: 0;
+        right: -25px;
+
+        display: block;
+
+        content: "";
+
+        @include transition;
+        @include bg($arrow-right-black);
+      }
+      &:hover {
+        color: #5c5c5c;
+      }
+    }
+  }
+}

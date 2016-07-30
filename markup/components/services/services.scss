@@ -1,0 +1,78 @@
+.services {
+  padding-top: 190px;
+  padding-bottom: 120px;
+  &__wrapper {
+    padding-right: 120px;
+    padding-left: 120px;
+
+    @extend .wrapper;
+  }
+  &__title {
+    margin-bottom: 86px;
+  }
+  &__text {
+    padding-right: 172px;
+    padding-left: 172px;
+
+    text-align: center;
+
+    color: #5c5c5c;
+
+    font-family: $GothamPro-Light;
+    font-size: 24px;
+    line-height: 30px;
+    @media screen and (max-width: 1360px) {
+      padding-right: 82px;
+      padding-left: 82px;
+    }
+  }
+}
+
+.services-modules {
+  display: flex;
+
+  margin-top: 165px;
+
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-modules-item {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 340px;
+  height: 170px;
+  margin-bottom: 60px;
+
+  border-radius: 8px;
+  &__mask {
+    position: absolute;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: .8;
+    background: linear-gradient(to right, $darkBlue, $lightBlue);
+  }
+  &__text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+
+    width: 70%;
+
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+    color: #fff;
+
+    font-family: $GothamPro-Bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
