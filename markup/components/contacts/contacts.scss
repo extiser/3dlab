@@ -1,6 +1,9 @@
 .contacts {
   padding-top: 103px;
   padding-bottom: 78px;
+  @media screen and (max-width: 768px) {
+    padding-top: 50px;
+  }
   &__wrapper {
     display: flex;
 
@@ -15,15 +18,36 @@
       padding-right: 105px;
       padding-left: 87px;
     }
+    @media screen and (max-width: 1024px) {
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+    @media screen and (max-width: 960px) {
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    @media screen and (max-width: 768px) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
   }
   &__title {
     width: 100%;
     margin-bottom: 108px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 50px;
+    }
   }
 }
 
 .contacts-form {
   width: 584px;
+  @media screen and (max-width: 1024px) {
+    width: 48%;
+  }
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 }
 .contact-list {
   box-sizing: border-box;
@@ -33,6 +57,17 @@
   color: #fff;
   border-radius: 6px;
   background: linear-gradient(to right, rgba($darkBlue, .9), rgba($lightBlue, .9));
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px 100px;
+
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 30px 20px;
+  }
   &__title {
     margin-bottom: 20px;
 
@@ -67,11 +102,28 @@
 
     align-items: center;
     justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 0;
+
+      flex-wrap: wrap;
+    }
   }
   &__column {
     position: relative;
 
     width: 279px;
+    @media screen and (max-width: 1024px) {
+      width: 48%;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 21px;
+    }
+    &.m-order-2 {
+      @media screen and (max-width: 768px) {
+        order: 2;
+      }
+    }
   }
   &__element {
     box-sizing: border-box;
@@ -109,6 +161,12 @@
     font-size: 12px;
 
     @include transition;
+    @media screen and (max-width: 768px) {
+      display: block;
+
+      width: 95%;
+      margin: auto;
+    }
     &:hover {
       cursor: pointer;
 
@@ -126,6 +184,11 @@
 
   width: 179px;
   height: 43px;
+  @media screen and (max-width: 768px) {
+    float: none;
+
+    margin: 21px auto 0;
+  }
   &:after {
     display: table;
     clear: both;

@@ -9,6 +9,12 @@
   max-width: 1440px;
   margin: auto;
   padding: 40px 50px;
+  @media screen and (max-width: 960px) {
+    padding: 30px 40px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 10px 15px;
+  }
   &__wrapper {
     display: flex;
 
@@ -20,6 +26,14 @@
 
     align-items: center;
     justify-content: space-between;
+  }
+  &__contact {
+    @media screen and (max-width: 960px) {
+      margin-right: 40px;
+    }
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }
 
@@ -34,6 +48,9 @@
       margin-right: 30px;
 
       @include bg($mai-white);
+      @media screen and (max-width: 768px) {
+        margin-right: 15px;
+      }
     }
     &--printeo {
       @include bg($logo-white);

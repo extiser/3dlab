@@ -11,6 +11,14 @@
     align-items: center;
     @extend .wrapper;
     justify-content: space-between;
+    @media screen and (max-width: 1024px) {
+      padding: 50px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 20px;
+
+      flex-wrap: wrap;
+    }
   }
   &__text {
     color: #989898;
@@ -29,16 +37,32 @@
 
     flex-wrap: wrap;
     justify-content: flex-end;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      max-width: inherit;
+
+      align-items: center;
+      justify-content: center;
+    }
   }
   &__logo {
     margin-left: 55px;
 
     @include bg($logo-gray);
+    @media screen and (max-width: 768px) {
+      margin-left: 0;
+    }
   }
   &__mai {
     margin-top: 81px;
 
     @include bg($mai-gray);
+    @media screen and (max-width: 768px) {
+      margin-top: 0;
+      margin-left: 20px;
+
+      @include bg($mai-gray-mobile);
+    }
   }
 }
 
@@ -47,6 +71,12 @@
 
   align-items: center;
   justify-content: flex-start;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 30px 0;
+
+    justify-content: center;
+  }
   &__item {
     margin-right: 14px;
     &--fb {

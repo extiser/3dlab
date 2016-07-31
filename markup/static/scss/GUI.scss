@@ -3,7 +3,6 @@
 
 .main {
   width: 100%;
-  max-width: 1920px;
   margin: auto;
 }
 
@@ -49,6 +48,9 @@
   font-family: $GothamPro-Bold;
   font-size: 48px;
   line-height: 100%;
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+  }
   &--gradiented {
     span {
       color: transparent;

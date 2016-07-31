@@ -1,5 +1,6 @@
 .school {
   padding-bottom: 87px;
+  
   &__wrapper {
     @extend .wrapper;
   }
@@ -15,6 +16,12 @@
   margin: 86px auto 0;
 
   border-radius: 8px;
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    margin-top: 40px;
+
+    border-radius: 0;
+  }
   &__mask {
     position: absolute;
     z-index: 0;
@@ -44,6 +51,10 @@
     font-family: $GothamPro-Bold;
     font-size: 36px;
     line-height: 38px;
+    @media screen and (max-width: 768px) {
+      font-size: 22px;
+      line-height: 24px;
+    }
   }
   &__text {
     padding-right: 130px;
@@ -54,6 +65,13 @@
     @media screen and (max-width: 1360px) {
       padding-right: 120px;
       padding-left: 120px;
+    }
+    @media screen and (max-width: 768px) {
+      padding-right: 20px;
+      padding-left: 20px;
+
+      font-size: 14px;
+      line-height: 20px;
     }
   }
   &__button {

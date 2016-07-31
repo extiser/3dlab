@@ -4,8 +4,156 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"inherit"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"tra",
+				"transform"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
 				"fon",
-				"font-style	styl"
+				"font-size"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"boxs",
+				"box-shadow"
+			],
+			[
+				"outline",
+				"outline-color"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"scc",
+				"school-block"
+			],
+			[
+				"te",
+				"technologies	(technologies.jade)"
+			],
+			[
+				"marin",
+				"margin-bottom"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"f",
+				"font-weight	(top-menu.scss)"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"foo",
+				"footer-mai"
+			],
+			[
+				"con",
+				"contacts"
+			],
+			[
+				"for",
+				"form-file"
+			],
+			[
+				"fom",
+				"form__column"
+			],
+			[
+				"fo",
+				"form__column"
+			],
+			[
+				"new",
+				"news-block"
+			],
+			[
+				"sc",
+				"school-block"
+			],
+			[
+				"teh",
+				"technologies-modules-item"
+			],
+			[
+				"ser",
+				"services-modules"
+			],
+			[
+				"se",
+				"services-modules"
+			],
+			[
+				"head",
+				"header	(index.jade)"
+			],
+			[
+				"top",
+				"top-menu"
 			],
 			[
 				"c-ex",
@@ -16,20 +164,12 @@
 				"content-center"
 			],
 			[
-				"marg",
-				"margin-bottom	styl"
-			],
-			[
 				"c-yo",
 				"c-your-benefits__column"
 			],
 			[
 				"padding",
 				"padding	styl"
-			],
-			[
-				"padd",
-				"padding-bottom	styl"
 			],
 			[
 				"c-hre",
@@ -50,14 +190,6 @@
 			[
 				"c-si",
 				"c-simple-automation__column"
-			],
-			[
-				"marign",
-				"margin-bottom	styl"
-			],
-			[
-				"margin",
-				"margin-top	styl"
 			],
 			[
 				"c-acc",
@@ -104,20 +236,12 @@
 				"c-other-automation-tasks"
 			],
 			[
-				"con",
-				"content-center"
-			],
-			[
 				"po",
 				"position	styl"
 			],
 			[
 				"com",
 				"compare-baner"
-			],
-			[
-				"pad",
-				"padding-left	styl"
 			],
 			[
 				"c-com",
@@ -134,14 +258,6 @@
 			[
 				"_arr",
 				"_arrowbottom	(index.php)"
-			],
-			[
-				"tra",
-				"translate"
-			],
-			[
-				"tran",
-				"transform	styl"
 			],
 			[
 				"c-s",
@@ -164,10 +280,6 @@
 				"margin"
 			],
 			[
-				"te",
-				"text-decoration"
-			],
-			[
 				"p",
 				"p404-content"
 			],
@@ -176,20 +288,8 @@
 				"background"
 			],
 			[
-				"margn",
-				"margin-right"
-			],
-			[
-				"fo",
-				"footer-nav"
-			],
-			[
 				"side",
 				"sidebar-advertise"
-			],
-			[
-				"se",
-				"search"
 			],
 			[
 				"tis",
@@ -198,14 +298,6 @@
 			[
 				"ti",
 				"tiserPos"
-			],
-			[
-				"foo",
-				"footerHeight"
-			],
-			[
-				"sc",
-				"scrollTop"
 			],
 			[
 				"border-righ",
@@ -234,10 +326,6 @@
 			[
 				"ca",
 				"category-content-tags"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"si",
@@ -276,24 +364,12 @@
 				"font-family"
 			],
 			[
-				"s",
-				"structure-content-item"
-			],
-			[
 				"st",
 				"structure-content-item"
 			],
 			[
 				"sli",
 				"slider-item"
-			],
-			[
-				"new",
-				"news-line-item"
-			],
-			[
-				"top",
-				"top-menu-inside__title"
 			],
 			[
 				"top-",
@@ -312,20 +388,12 @@
 				"border-collapse"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
 				"le",
 				"left"
 			],
 			[
 				"i",
 				"italic"
-			],
-			[
-				"fn",
-				"font-style"
 			],
 			[
 				"a",
@@ -338,10 +406,6 @@
 			[
 				"li",
 				"list-style-position"
-			],
-			[
-				"margi",
-				"margin-right"
 			],
 			[
 				"border-bott",
@@ -450,70 +514,6 @@
 			[
 				"co",
 				"color"
-			],
-			[
-				"font-",
-				"font-family"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"au",
-				"authors"
-			],
-			[
-				"for",
-				"form__submit"
-			],
-			[
-				"form",
-				"form__element"
-			],
-			[
-				"lis",
-				"list-style"
-			],
-			[
-				"gen",
-				"genresListSidebar"
-			],
-			[
-				"bre",
-				"breadcrumbs__item"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"do",
-				"DownloadNewestPopular"
-			],
-			[
-				"ge",
-				"genresListMain"
-			],
-			[
-				"inpu",
-				"inputElement"
-			],
-			[
-				"ra",
-				"rating__item"
-			],
-			[
-				"rat",
-				"rating__item"
-			],
-			[
-				"t",
-				"top"
-			],
-			[
-				"mar",
-				"margin"
 			]
 		]
 	},
@@ -592,11 +592,44 @@
 	"expanded_folders":
 	[
 		"/Users/extiser/git/3dlab/markup",
+		"/Users/extiser/git/3dlab/markup/components",
+		"/Users/extiser/git/3dlab/markup/components/top",
+		"/Users/extiser/git/3dlab/markup/pages",
 		"/Users/extiser/git/3dlab/markup/static",
-		"/Users/extiser/git/3dlab/markup/static/images"
+		"/Users/extiser/git/3dlab/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/3dlab/markup/components/technologies/technologies.scss",
+		"/Users/extiser/git/3dlab/markup/components/services/services.scss",
+		"/Users/extiser/git/3dlab/markup/components/school/school.scss",
+		"/Users/extiser/git/3dlab/markup/components/news/news.scss",
+		"/Users/extiser/git/3dlab/markup/components/header/header.scss",
+		"/Users/extiser/git/3dlab/markup/components/footer/footer.scss",
+		"/Users/extiser/git/3dlab/markup/components/contacts/contacts.scss",
+		"/Users/extiser/git/3dlab/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/3dlab/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/3dlab/markup/components/top/top.scss",
+		"/Users/extiser/git/3dlab/markup/components/header/header.js",
+		"/Users/extiser/git/3dlab/markup/components/contacts/contacts.jade",
+		"/Users/extiser/git/3dlab/markup/components/technologies/technologies.jade",
+		"/Users/extiser/git/3dlab/markup/components/news/news.js",
+		"/Users/extiser/git/3dlab/markup/components/header/header.jade",
+		"/Users/extiser/git/3dlab/markup/components/news/news.jade",
+		"/Users/extiser/git/3dlab/markup/components/top/top.jade",
+		"/Users/extiser/git/3dlab/markup/components/footer/footer.jade",
+		"/Users/extiser/git/3dlab/markup/components/news/school.scss",
+		"/Users/extiser/git/3dlab/markup/components/school/school.jade",
+		"/Users/extiser/git/3dlab/markup/pages/index.jade",
+		"/Users/extiser/git/3dlab/markup/components/services/services.jade",
+		"/Users/extiser/git/3dlab/markup/components/top-menu/top-menu.jade",
+		"/Users/extiser/git/3dlab/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/3dlab/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/3dlab/markup/static/scss/common.scss",
+		"/Users/extiser/git/3dlab/markup/static/scss/vars.scss",
+		"/Users/extiser/git/izeta-site/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/izeta-site/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/izeta-site/markup/static/scss/GUI.scss",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-hrm/c-hrm-effect.styl",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-hrm/c-expert-opinion.styl",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-hrm/index.php",
@@ -694,37 +727,7 @@
 		"/Users/extiser/git/sovets-2015/markup/modules/single-content/single-content.jade",
 		"/Users/extiser/git/sovets-2015/markup/modules/comments-native/comments-native.jade",
 		"/Users/extiser/git/sovets-2015/markup/modules/include/include.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/article-block/article-block.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/sidebar-advertise/sidebar-advertise.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/slider/slider.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/slider/slider.scss",
-		"/Users/extiser/git/sovets-2015/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/sidebar/sidebar.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/sovets-2015/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/seo-text/seo-text.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/new-articles/new-articles.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/article-block/article-block.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/main-content/main-content.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/top-menu/top-menu.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/search/search.js",
-		"/Users/extiser/git/sovets-2015/markup/modules/top-menu/top-menu.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/header/header.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/top-menu/top-menu.js",
-		"/Users/extiser/git/sovets-2015/markup/modules/search/search.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/head/head.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/comments/comments.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/similar-articles/similar-articles.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/similar-articles/similar-articles.scss",
-		"/Users/extiser/git/sovets-2015/markup/pages/single.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/social/social.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/social/social.scss",
-		"/Users/extiser/git/sovets-2015/markup/modules/pagination/pagination.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/breadcrumbs/breadcrumbs.jade",
-		"/Users/extiser/git/sovets-2015/markup/pages/category.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/slider/slider.js",
-		"/Users/extiser/git/sovets-2015/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/popular-articles/popular-articles.jade"
+		"/Users/extiser/git/sovets-2015/markup/modules/article-block/article-block.scss"
 	],
 	"find":
 	{
@@ -732,7 +735,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 158.0,
 		"where_history":
 		[
 			""
@@ -743,6 +746,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"@media screen and (max-width: 960px) {",
+			".contacts-address",
 			"Это интересно",
 			"c-accordion-block__text",
 			"license-nav",
@@ -868,9 +873,7 @@
 			"header",
 			"h1",
 			"title",
-			"post",
-			"eight",
-			"thumbElements"
+			"post"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -878,6 +881,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"@media screen and (max-width: 768px) {",
+			".contact-list",
 			"c-accordion-block__content",
 			"js-accordion-block-content",
 			"js-accordion-block-trigger",
@@ -1003,9 +1008,7 @@
 			"",
 			"table-finance-counters",
 			"btn",
-			"table__row table__row--tbody table-stat__row--tbody",
-			"table__row--cell table-stat__row--cell",
-			"table__row--cell"
+			"table__row table__row--tbody table-stat__row--tbody"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1027,7 +1030,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 63.0
 	},
 	"layout":
 	{
@@ -1064,7 +1067,7 @@
 	"project": "3dlab.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

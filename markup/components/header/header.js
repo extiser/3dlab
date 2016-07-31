@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('.js-header-background').particleground({
+  $('.js-fractal-bg').particleground({
       dotColor: '#ffffff',
       lineColor: '#ffffff'
   });
