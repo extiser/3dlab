@@ -4,28 +4,36 @@
 		"selected_items":
 		[
 			[
-				"in",
-				"inherit"
+				"back",
+				"background-color"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"marign",
-				"margin-bottom"
+				"padd",
+				"padding"
 			],
 			[
 				"pad",
 				"padding-right"
 			],
 			[
-				"min",
-				"min-width"
+				"text",
+				"text-align"
 			],
 			[
-				"padd",
-				"padding"
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"min",
+				"min-width"
 			],
 			[
 				"space",
@@ -54,10 +62,6 @@
 			[
 				"fon",
 				"font-size"
-			],
-			[
-				"text",
-				"text-indent"
 			],
 			[
 				"tran",
@@ -306,10 +310,6 @@
 			[
 				"re",
 				"repeat-x"
-			],
-			[
-				"back",
-				"background-repeat"
 			],
 			[
 				"border-bot",
@@ -593,23 +593,24 @@
 	[
 		"/Users/extiser/git/3dlab/markup",
 		"/Users/extiser/git/3dlab/markup/components",
-		"/Users/extiser/git/3dlab/markup/components/top",
 		"/Users/extiser/git/3dlab/markup/pages",
 		"/Users/extiser/git/3dlab/markup/static",
 		"/Users/extiser/git/3dlab/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/3dlab/markup/components/top-menu/top-menu.jade",
+		"/Users/extiser/git/3dlab/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/3dlab/markup/components/top-menu/top-menu.js",
+		"/Users/extiser/git/3dlab/markup/components/contacts/contacts.scss",
+		"/Users/extiser/git/3dlab/markup/components/news/news.scss",
 		"/Users/extiser/git/3dlab/markup/components/technologies/technologies.scss",
 		"/Users/extiser/git/3dlab/markup/components/services/services.scss",
-		"/Users/extiser/git/3dlab/markup/components/school/school.scss",
-		"/Users/extiser/git/3dlab/markup/components/news/news.scss",
-		"/Users/extiser/git/3dlab/markup/components/header/header.scss",
 		"/Users/extiser/git/3dlab/markup/components/footer/footer.scss",
-		"/Users/extiser/git/3dlab/markup/components/contacts/contacts.scss",
-		"/Users/extiser/git/3dlab/markup/static/scss/GUI.scss",
-		"/Users/extiser/git/3dlab/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/3dlab/markup/components/school/school.scss",
+		"/Users/extiser/git/3dlab/markup/components/header/header.scss",
 		"/Users/extiser/git/3dlab/markup/components/top/top.scss",
+		"/Users/extiser/git/3dlab/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/3dlab/markup/components/header/header.js",
 		"/Users/extiser/git/3dlab/markup/components/contacts/contacts.jade",
 		"/Users/extiser/git/3dlab/markup/components/technologies/technologies.jade",
@@ -622,7 +623,6 @@
 		"/Users/extiser/git/3dlab/markup/components/school/school.jade",
 		"/Users/extiser/git/3dlab/markup/pages/index.jade",
 		"/Users/extiser/git/3dlab/markup/components/services/services.jade",
-		"/Users/extiser/git/3dlab/markup/components/top-menu/top-menu.jade",
 		"/Users/extiser/git/3dlab/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/3dlab/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/3dlab/markup/static/scss/common.scss",
@@ -726,8 +726,7 @@
 		"/Users/extiser/git/sovets-2015/.csscomb.json",
 		"/Users/extiser/git/sovets-2015/markup/modules/single-content/single-content.jade",
 		"/Users/extiser/git/sovets-2015/markup/modules/comments-native/comments-native.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/include/include.jade",
-		"/Users/extiser/git/sovets-2015/markup/modules/article-block/article-block.scss"
+		"/Users/extiser/git/sovets-2015/markup/modules/include/include.jade"
 	],
 	"find":
 	{

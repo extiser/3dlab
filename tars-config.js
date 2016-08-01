@@ -42,11 +42,11 @@ module.exports = {
         "sounds": {},
         "taskFinishedText": "Task finished at: "
     },
-    "minifyHtml": true,
+    "minifyHtml": false,
     "generateStaticPath": true,
     "buildPath": "./builds/",
     "useBuildVersioning": false,
-    "useArchiver": false,
+    "useArchiver": true,
     "ulimit": 4096,
     "templater": "jade",
     "cssPreprocessor": "scss",
